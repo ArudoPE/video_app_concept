@@ -1,15 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/logo_small_icon_only.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>iVideos by Aldo Ortiz</title>
 </head>
-
 <body>
-</body>
+    <div class="big-container grid">
+        <header class="header">
+            <nav class="header-nav flex">
+                <div class="header-logo-container">
+                    <img src="./img/ivideo_logo_white.png" alt="iVideo Logo">
+                </div>
+                <div class="header-playlist-container">
+                    <h3 class="header-playtlist-title">Mi Playlist</h3>
+                    <div class="header-playlist flex">
+                        <a href="" class="header-playlist-item">1. Relaxing Jazz Piano Radio - Slow Jazz Music - 24/7
+                            Live Stream - Music For Work & Study</a>
+                        <a href="" class="header-playlist-item">2. Coffee Jazz: Positive Jazz & Bossa Nova Music for
+                            Happy Day</a>
+                        <a href="" class="header-playlist-item">3. Mortal Kombat Red Band Trailer #1 (2021) | Movieclips
+                            Trailers</a>
+                        <a href="" class="header-playlist-item">4. Thor vs Hulk - Fight Scene - The Avengers (2012)
+                            Movie Clip HD</a>
+                        <a href="" class="header-playlist-item">5. Thor vs Hela - First Fight Scene | Thor Ragnarok
+                            (2017) Movie CLIP HD</a>
+                        <a href="" class="header-playlist-item">6. Curso de JAVASCRIPT desde CERO (Completo) - Nivel
+                            JUNIOR</a>
+                        <a href="" class="header-playlist-item">7. Yo reacciono a tu código #2</a>
+                        <a href="" class="header-playlist-item">8. Curso de HTML5 desde CERO (Completo)</a>
+                        <a href="" class="header-playlist-item">9. Curso Python para Principiantes</a>
+                        <a href="" class="header-playlist-item">10. ¿Cómo y por qué aprender react.js?</a>
+                    </div>
+                </div>
+                <div class="friends-playlist-container">
+                    <h3 class="header-playtlist-title">Playlists de Amigos</h3>
+                    <div class="header-friend-list">
+                        <a href="" class="header-friend-item">
+                            <div class="header-profile-tile">
+                                <img src="./img/profile1.png" alt="Profile image" class="header-tile-image">
+                                <span class="header-tile-profile-name">María López</span>
+                            </div>
+                        </a>
+                        <a href="" class="header-friend-item">
+                            <div class="header-profile-tile">
+                                <img src="./img/profile3.png" alt="Profile Image" class="header-tile-image">
+                                <span class="header-tile-profile-name">Rosa Brett</span>
+                            </div>
+                        </a>
+                        <a href="" class="header-friend-item">
+                            <div class="header-profile-tile">
+                                <img src="./img/profile4.png" alt="" class="header-tile-image">
+                                <span class="header-tile-profile-name">Mark Hommel</span>
+                            </div>
+                        </a>
+                        <a href="" class="header-friend-item">
+                            <div class="header-profile-tile">
+                                <img src="./img/profile5.png" alt="Profile image" class="header-tile-image">
+                                <span class="header-tile-profile-name">Kat Spade</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="main grid">
+            <div class="big-video-container flex">
+                <div class="main-video-container">
+                    <iframe src="https://www.youtube.com/embed/GvYATT8juh8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="video-description-container">
+                    <h1 class="main-title">Jazz Beats: Chill Study Jazzhop Music - Instrumental & Jazz Hip Hop Radio</h1>
+                    <span>138,458 vistas</span>
+                    <div class="main-video-info">
+                        <div class="left-video-info">
 
+                        </div>
+                        <div class="right-video-info">
+                            <div class="video-tag">Jazz</div>
+                            <div class="video-tag">Electronic</div>
+                            <div class="video-tag">Chill</div>
+                            <div class="video-tag">Music</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-video-suggestions"></div>
+            <div class="main-video-comments"></div>
+        </main>
+    </div>
+    <script src="./index.js"></script>
+</body>
 </html>
